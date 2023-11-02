@@ -1,13 +1,11 @@
 "use client"
-import Modal from '@/components/modal'
+import Modal from '../components/Modal.jsx'
 import './index.scss'
 import { useState } from 'react';
 
 export default function Home() {
   const [openPrimeiroModal, setOpenPrimeiroModal] = useState(false);
   const [openSegundoModal, setOpenSegundoModal] = useState(false);
-
-  console.log(openPrimeiroModal)
 
   return (
     <>
