@@ -1,0 +1,43 @@
+@use '../styles/variables' as *;
+
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: $cor-bg-shadow;
+    
+    &__content{
+        width: 40vw;
+        height: 40vh;
+        background-color: $cor-bg-azul;
+        color: $cor-font-branco;
+        padding: 1rem;
+
+        &--btnfechar{
+            display: flex;
+            justify-content: flex-end;
+            padding: .5rem;
+            background-color: $cor-bg-azul-claro;
+            
+            svg{
+                cursor: pointer;
+            }
+        }
+
+        h1{
+            text-align: center;
+            padding: 1.5rem;
+        }
+        
+        p{
+            text-align: center;
+            padding: 1rem;
+        }
+    }
+}
