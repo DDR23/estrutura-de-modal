@@ -1,21 +1,18 @@
+# atividade---FRONTEND---estrutura-de-modal---Escola-DNC
 
-# Estrutura simples de modal
-
-### Mini projeto feito para praticar o desenvolvimento de uma estrutura de modal.
-
+## Sobre o projeto
 Foi feito um componente com uma estrutura e estilização simples para o modal, de forma que a cada vez que o modal fosse chamado ele mostrasse um conteudo diferente de acordo com o objetivo do usuario, via de props.
 
-### Nesse projeto é possivel ver tambem o uso de:
-- estrutura de pasta usando Next.js
-- SASS e variaveis
-- useState
+Projeto hospedado em: https://estrutura-de-modal.vercel.app/
 
-
-### Para roda o projeto é nescessário
+## Comandos para rodar o projeto
 
 ```bash
-  npm install
+  npm i
 ```
 ```bash
   npm run dev
 ```
+
+## Screenshots
+![App Screenshot](/public/picture_01.png)

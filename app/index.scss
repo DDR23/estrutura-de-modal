@@ -1,38 +1,38 @@
 @use '../styles/variables' as *;
 
-.home{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    &__content{
-        height: auto;
-        background-color: $cor-bg-azul;
+  &__content {
+    height: auto;
+    background-color: $cor-bg-azul;
 
-        h1{
-            color: $cor-font-branco;
-            padding: 1rem;
-        }
+    h1 {
+      color: $cor-font-branco;
+      padding: 1rem;
     }
+  }
 
-    &__btns button{
-        margin: 2rem .5rem;
-        padding: .7rem 1.5rem;
-        border: none;
-        text-transform: uppercase;
-        font-weight: 800;
-        background-color: $cor-bg-azul;
-        color: $cor-font-branco;
-        
-        &:hover{
-            background-color: $cor-bg-branco;
-            color: $cor-font-preta;
-            cursor: pointer;
-            transform: translateY(-.1rem);
-            transition-duration: .3s;
-        }
+  &__btns button {
+    margin: 2rem .5rem;
+    padding: .7rem 1.5rem;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: $cor-bg-azul;
+    color: $cor-font-branco;
+
+    &:hover {
+      background-color: $cor-bg-branco;
+      color: $cor-font-preta;
+      cursor: pointer;
+      transform: translateY(-.1rem);
+      transition-duration: .3s;
     }
+  }
 }

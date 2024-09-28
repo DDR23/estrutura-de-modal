@@ -19,8 +19,8 @@ export default function Home() {
         </div>
       </div>
       <div className="home__modal">
-        <Modal isOpen={openPrimeiroModal} isClose={setOpenPrimeiroModal} titulo="Esse é meu primeiro modal" description="Aqui fica a descrição geral do meu primeiro modal"/>
-        <Modal isOpen={openSegundoModal} isClose={setOpenSegundoModal} titulo="Esse é meu segundo modal" description="Aqui fica a descrição geral do meu segundo modal"/>
+        <Modal isOpen={openPrimeiroModal} isClose={setOpenPrimeiroModal} titulo="Esse é meu primeiro modal" description="Aqui fica a descrição geral do meu primeiro modal" />
+        <Modal isOpen={openSegundoModal} isClose={setOpenSegundoModal} titulo="Esse é meu segundo modal" description="Aqui fica a descrição geral do meu segundo modal" />
       </div>
     </>
   )
